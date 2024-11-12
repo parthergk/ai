@@ -8,9 +8,9 @@ function App() {
         </div>
 
         {/* Main Content */}
-        <div className=" mt-28 space-y-10 flex flex-col m-auto justify-center items-center">
+        <div className="mt-16 md:mt-28 space-y-10 flex flex-col m-auto justify-center items-center">
           <div className="space-y-6">
-            <h2 className="text-5xl font-bold leading-tight">
+            <h2 className=" text-4xl md:text-5xl font-bold leading-tight text-center">
               Bringing Gen AI solutions to the{" "}
               <span className="text-indigo-600">flooring industry</span>
             </h2>
@@ -33,7 +33,7 @@ function App() {
             </button>
           </div>
 
-          <div className=" fixed bottom-0 w-full bg-gray-50 px-6 py-4 flex flex-wrap items-center justify-end gap-6 text-sm">
+          <div className=" fixed bottom-0 w-full bg-gray-50 px-3 md:px-6 py-4 flex flex-wrap items-center justify-between md:justify-end gap-6 text-sm">
             <div className="flex items-center space-x-2 text-indigo-600 hover:text-indigo-700 transition-colors">
               <span className="text-lg">•</span>
               <a
